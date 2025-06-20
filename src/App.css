@@ -1,0 +1,359 @@
+.form-container {
+    width: auto;
+    height: auto; 
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 45px 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+    
+  }
+  
+  .title {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 10px 0 30px 0;
+    font-size: 28px;
+    font-weight: 800;
+  }
+  
+  .home-description {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+  }
+  
+  .form-btn {
+    display: block;
+    padding: 15px 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    border: 0 !important;
+    outline: 0 !important;
+    background: teal;
+    color: white;
+    cursor: pointer;
+    text-align: center; 
+    margin: 10px 0; 
+    text-decoration: none; 
+  }
+  
+  .form-btn:hover {
+    background: darkcyan; 
+  }
+  
+  .sign-up-label {
+    margin: 0;
+    font-size: 10px;
+    color: #747474;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center; 
+  }
+  
+  .sign-up-link {
+    margin-left: 1px;
+    font-size: 11px;
+    text-decoration: underline;
+    text-decoration-color: teal;
+    color: teal;
+    cursor: pointer;
+    font-weight: 800;
+  }
+
+
+
+.question-output .hidden {
+    display: none;
+}
+
+.question-output .show-answer-btn {
+    background: #4285f4;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.question-output .answer {
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin-top: 10px;
+}  
+
+
+
+.question-output {
+    margin-top: 30px;
+}
+
+
+.question-output button.show-answer-btn,
+.question-output button.bg-blue-500 {
+    background: #4285f4;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.question-output button.show-answer-btn:hover,
+.question-output button.bg-blue-500:hover {
+    background: #3367d6;
+}
+
+
+.question-output .hidden,
+.question-output .font-bold.text-green-600,
+.question-output .answer-content {
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+
+.question-output .font-bold.text-green-600.show,
+.question-output .answer-content.show,
+.question-output .hidden.show {
+    display: block;
+}
+
+
+.question-output .border-2 {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background: white;
+}
+
+
+.question-output .question-box {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.question-output .border-gray-300 {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background: white;
+}
+
+
+.question-output .border-2 .hidden {
+    display: none !important;
+}
+
+.question-output .border-2 .font-bold.text-green-600 {
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+
+.question-output .border-2 .font-bold.text-green-600.show {
+    display: block;
+}
+
+
+.question-output .question-box .hidden {
+    display: none !important;
+}
+
+.question-output .question-box .answer {
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+
+.question-output .question-box .answer.show {
+    display: block;
+}
+
+
+.question-output .border-gray-300 .hidden {
+    display: none !important;
+}
+
+.question-output .border-gray-300 p.hidden {
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+
+.question-output .border-gray-300 p.hidden.show {
+    display: block;
+}
+
+
+.question-output .show-answer-btn,
+.question-output .bg-blue-500 {
+    background: #4285f4;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.question-output .show-answer-btn:hover,
+.question-output .bg-blue-500:hover {
+    background: #3367d6;
+}
+
+
+.question-output .answer-content,
+.question-output .font-bold.text-green-600,
+.question-output .answer {
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+
+
+.question-output .answer-content.show,
+.question-output .font-bold.text-green-600.show,
+.question-output .answer.show {
+    display: block !important;
+}
+
+
+.question-output .show-answer-btn,
+.question-output .bg-blue-500 {
+    background: #4285f4;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+.question-output .border-2,
+.question-output .question-box,
+.question-output .border-gray-300 {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #ddd;
+}
+
+
+.generated-ppt {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.ppt-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.action-btn {
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.download-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.download-btn:hover {
+    background-color: #45a049;
+}
+
+.copy-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.copy-btn:hover {
+    background-color: #0b7dda;
+}
+
+.ppt-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.question-actions, .ppt-actions {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.action-btn {
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.pdf-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.pdf-btn:hover {
+    background-color: #d32f2f;
+}
+
+.copy-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.copy-btn:hover {
+    background-color: #0b7dda;
+}
+
+
+.question-output, .ppt-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
